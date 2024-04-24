@@ -8,7 +8,7 @@ class Problem:
     """
 
     def compute_answer(self) -> int:
-        value = 600_851_475_143
+        value = 9_009
 
         prime_gen = self.gen_primes()
         while True:
